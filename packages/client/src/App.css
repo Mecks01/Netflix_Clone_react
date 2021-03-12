@@ -1,0 +1,13 @@
+@import "~tailwindcss/dist/base.css";
+@import "~tailwindcss/dist/components.css";
+@import "~tailwindcss/dist/utilities.css";
+@font-face {
+    font-family: "Netflix Sans";
+    src: url("./constants/CircularStdFont.otf") format("truetype");
+}
+.App {
+    text-align: center;
+}
+* {
+    margin: 0;
+}

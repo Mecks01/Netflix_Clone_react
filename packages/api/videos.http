@@ -1,0 +1,29 @@
+@api=http://localhost:4000
+
+GET {{api}}/videos
+
+###
+GET {{api}}/videos/5fe0bf157b54b225dcbbc079
+
+### Create a video
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "url":"https://youtu.be/Q0f5XjHxG9Y",
+    "title":"Doctor Stranger",
+    "duration": "30",
+    "description":"this is a drama "
+}
+###
+DELETE {{api}}/videos/5fe98fd6bc3e3b311ce7f3da
+
+###
+PUT {{api}}/videos/600825e05e1c60260c0557f2
+Content-Type: application/json
+
+{
+    "url":"https://www.youtube.com/watch?v=Je0D_yuFZRM",
+    "title" : "Football",
+    "description":"this is a games "
+}

@@ -1,0 +1,32 @@
+.container {
+    max-width: 950px;
+    z-index: 1;
+}
+.text1 {
+    color: #fff;
+    font-size: 4em !important;
+    font-weight: 600 !important;
+    max-width: 640px;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.text2 {
+    margin-top: 20px !important;
+    color: #fff;
+    text-align: center;
+}
+.textField {
+    margin-top: 20px !important;
+    width: 70% !important;
+    border-top-right-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+}
+.button {
+    margin-top: 20px !important;
+    border-top-left-radius: 0% !important;
+    border-bottom-left-radius: 0% !important;
+    height: 60px;
+    width: 30%;
+    font-size: 20px !important;
+    background-color: #e50914 !important;
+}

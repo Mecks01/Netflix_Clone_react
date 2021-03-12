@@ -1,0 +1,187 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header {
+    vertical-align: middle;
+    position: relative;
+    z-index: 10;
+    margin-left: 3%;
+}
+
+.logo img {
+    width: 167px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.login_body {
+    padding: 60px 68px 40px;
+    z-index: 100;
+    position: relative;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login_box {
+    margin-bottom: 50px;
+}
+
+.login_body h2 {
+    font-size: 32px;
+    font-weight: 750;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login_body input {
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 3px;
+    color: #fff;
+    background: #333;
+    border: 1px solid #333;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input_wrap {
+    margin-bottom: 17px;
+}
+
+.input_wrap button {
+    margin-top: 15px;
+}
+
+.login_body button {
+    height: 50px;
+    color: #fff !important;
+    background-color: #e50914 !important;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.support input {
+    width: 15px;
+    height: 15px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember input {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.remember span {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 5px 0px 0;
+}
+
+.need_help a {
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 2px;
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.login_footer {
+    margin-top: 50px;
+}
+
+.login_fb {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+}
+
+.login_fb img {
+    width: 20px;
+    height: 20px;
+}
+
+.login_fb span {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.login_fb span a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.sign_up {
+    color: #737373;
+    font-size: 16px;
+}
+
+.sign_up a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.terms {
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.textLink {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    float: right;
+}
+.MuiFormControlLabel-label {
+    color: #b3b3b3;
+    font-size: 13px !important;
+    font-weight: 500;
+    width: 130px;
+}
+.content {
+    padding: 0px !important;
+}
+
+@media only screen and (max-width: 740px) {
+    .wrapper {
+        background: black;
+    }
+
+    .login_body {
+        max-width: 100%;
+        padding: 20px 35px 40px;
+    }
+}

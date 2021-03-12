@@ -1,0 +1,28 @@
+.svg-icon-netflix-logo{
+    fill: red;
+    width: 165px;
+    float: left;
+    margin-left: 20px;
+}
+.sign-in{
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: red;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.blocIcon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+nav{
+    z-index: 1000;
+    padding-top: 20px;
+}
